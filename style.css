@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .loading h1 {
+    font-size: 3rem;
+  }
+  
+  .container {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 30px 0;
+  }
+  
+  input[type="text"],
+  button {
+    padding: 8px;
+    margin: 5px 0;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.9rem;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #ccc;
+  }
+  
+  button {
+    background-color: #e50914;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 0.8rem;
+    padding: 6px;
+    width: 50%;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #ff0000;
+  }
+  
+  #mensagemAdicionado {
+    color: #333;
+  }
+  
+  #mensagemDeErro {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  #listaFilmes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .filme {
+    width: calc(50% - 20px);
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  .filme img {
+    width: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0 auto 15px;
+    display: block;
+  }
+  
+  .filme h3 {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  
+  .filme p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .assistir-trailer,
+  .remover-filme {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    font-size: 0.8rem;
+  text-align: left;
+    box-sizing: border-box;
+  }
+  
+  .assistir-trailer {
+    background-color: #e50914;
+  }
+  
+  .assistir-trailer:hover {
+    background-color: #ff0000;
+  }
+  
+  .remover-filme {
+    background-color: #e50914;
+  }
+  
+  .remover-filme:hover {
+    background-color: #ff0000;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    opacity: 0.8;
+    z-index: 1;
+    margin-top: 40px;
+  }
+  
